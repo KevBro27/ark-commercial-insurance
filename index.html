@@ -1,0 +1,1520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ark Insurance - Professional Life, Health & P&C Insurance in New Jersey</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Get instant quotes for Life, Health, and P&C insurance in New Jersey. Ark Insurance offers professional coverage with plans to expand nationwide. Licensed agent Kevin Brown Jr.">
+    <meta name="keywords" content="life insurance, health insurance, property casualty insurance, New Jersey insurance, insurance quotes, Kevin Brown Jr">
+    <meta name="author" content="Ark Insurance - Kevin Brown Jr">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ark Insurance - Professional Insurance Coverage">
+    <meta property="og:description" content="Get instant insurance quotes in New Jersey. Expanding nationwide soon.">
+    <meta property="og:type" content="website">
+    
+    <!-- Professional Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS for Professional Styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome for Professional Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css">
+    
+    <!-- AOS (Animate On Scroll) for Professional Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                        'poppins': ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        'ark-brown': {
+                            50: '#faf8f7',
+                            100: '#f5f0ec',
+                            200: '#e8ddd4',
+                            300: '#d4c4b5',
+                            400: '#b8a08a',
+                            500: '#9d7c5f',
+                            600: '#8b6914',
+                            700: '#6d4c0f',
+                            800: '#5a3f0c',
+                            900: '#4a3209',
+                            950: '#3d2a07'
+                        },
+                        'ark-gold': {
+                            500: '#d4af37',
+                            600: '#b8941f'
+                        },
+                        'ark-accent': {
+                            500: '#c0c0c0',
+                            600: '#a8a8a8'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-inter antialiased">
+    <!-- Navigation Header -->
+    <nav class="fixed top-0 left-0 right-0 bg-white/95 backdrop-blur-sm shadow-lg z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <div class="flex items-center space-x-3">
+                        <div class="w-10 h-10 bg-gradient-to-br from-ark-brown-600 to-ark-brown-800 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-shield-alt text-white text-lg"></i>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-bold text-ark-brown-800">Ark Insurance</h1>
+                            <p class="text-xs text-gray-600">Licensed in New Jersey</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="text-ark-brown-800 hover:text-ark-brown-600 px-3 py-2 text-sm font-medium transition-colors">Home</a>
+                        <a href="#insurance" class="text-gray-700 hover:text-ark-brown-600 px-3 py-2 text-sm font-medium transition-colors">Insurance Types</a>
+                        <a href="#quote" class="text-gray-700 hover:text-ark-brown-600 px-3 py-2 text-sm font-medium transition-colors">Get Quote</a>
+                        <a href="#about" class="text-gray-700 hover:text-ark-brown-600 px-3 py-2 text-sm font-medium transition-colors">About</a>
+                        <a href="#contact" class="text-gray-700 hover:text-ark-brown-600 px-3 py-2 text-sm font-medium transition-colors">Contact</a>
+                    </div>
+                </div>
+                
+                <!-- CTA Buttons -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="tel:+1-555-ARK-INSURE" class="text-ark-brown-800 hover:text-ark-brown-600 font-semibold text-sm">
+                        <i class="fas fa-phone mr-2"></i>(555) ARK-INSURE
+                    </a>
+                    <button class="bg-ark-gold-500 hover:bg-ark-gold-600 text-white px-6 py-2 rounded-lg font-semibold text-sm transition-colors">
+                        Get Quote Now
+                    </button>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="mobile-menu-button text-gray-700 hover:text-ark-brown-600 focus:outline-none focus:text-ark-brown-600">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="md:hidden mobile-menu hidden">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
+                <a href="#home" class="block text-ark-brown-800 px-3 py-2 text-base font-medium">Home</a>
+                <a href="#insurance" class="block text-gray-700 hover:text-ark-brown-600 px-3 py-2 text-base font-medium">Insurance Types</a>
+                <a href="#quote" class="block text-gray-700 hover:text-ark-brown-600 px-3 py-2 text-base font-medium">Get Quote</a>
+                <a href="#about" class="block text-gray-700 hover:text-ark-brown-600 px-3 py-2 text-base font-medium">About</a>
+                <a href="#contact" class="block text-gray-700 hover:text-ark-brown-600 px-3 py-2 text-base font-medium">Contact</a>
+                <div class="px-3 py-4 border-t">
+                    <a href="tel:+1-555-ARK-INSURE" class="block text-ark-brown-800 font-semibold mb-3">
+                        <i class="fas fa-phone mr-2"></i>(555) ARK-INSURE
+                    </a>
+                    <button class="w-full bg-ark-gold-500 text-white px-4 py-2 rounded-lg font-semibold">
+                        Get Quote Now
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-20 bg-gradient-to-br from-ark-brown-50 via-white to-gray-50 min-h-screen flex items-center relative overflow-hidden">
+        <!-- Subtle Background Pattern -->
+        <div class="absolute inset-0 opacity-5">
+            <img src="images/hero-background.jpg" alt="" class="w-full h-full object-cover">
+        </div>
+        <div class="absolute inset-0 bg-gradient-to-br from-white/80 to-ark-brown-50/80"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Left Column - Hero Content -->
+                <div class="text-center lg:text-left" data-aos="fade-right">
+                    <!-- Trust Indicators -->
+                    <div class="flex flex-wrap justify-center lg:justify-start items-center gap-4 mb-6">
+                        <div class="flex items-center bg-white px-3 py-1 rounded-full shadow-sm">
+                            <i class="fas fa-star text-yellow-500 mr-1"></i>
+                            <span class="text-sm font-semibold">A+ Rating</span>
+                        </div>
+                        <div class="flex items-center bg-white px-3 py-1 rounded-full shadow-sm">
+                            <i class="fas fa-users text-ark-accent-500 mr-1"></i>
+                            <span class="text-sm font-semibold">Licensed Agent</span>
+                        </div>
+                        <div class="flex items-center bg-white px-3 py-1 rounded-full shadow-sm">
+                            <i class="fas fa-shield-check text-ark-brown-600 mr-1"></i>
+                            <span class="text-sm font-semibold">NJ Licensed</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Main Headline -->
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-ark-brown-900 leading-tight mb-6">
+                        Get Insurance Coverage in 
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-ark-gold-500 to-yellow-600">Minutes</span>, 
+                        Not Hours
+                    </h1>
+                    
+                    <!-- Subheadline -->
+                    <p class="text-xl text-gray-700 mb-8 max-w-2xl mx-auto lg:mx-0">
+                        Professional life, health, and P&C insurance from a licensed New Jersey agent. 
+                        <strong>Expanding nationwide soon.</strong> Get your personalized quote today.
+                    </p>
+                    
+                    <!-- CTA Buttons -->
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8">
+                        <button class="get-quote-btn bg-ark-gold-500 hover:bg-ark-gold-600 text-white px-8 py-4 rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                            <i class="fas fa-calculator mr-2"></i>Get Your Quote Now
+                        </button>
+                        <button class="speak-agent-btn border-2 border-ark-brown-600 text-ark-brown-600 hover:bg-ark-brown-600 hover:text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300">
+                            <i class="fas fa-user-tie mr-2"></i>Speak with Agent
+                        </button>
+                    </div>
+                    
+                    <!-- Quick Stats -->
+                    <div class="grid grid-cols-3 gap-4 max-w-md mx-auto lg:mx-0">
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-ark-brown-800">5K+</div>
+                            <div class="text-sm text-gray-600">Happy Customers</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-ark-brown-800">3 Min</div>
+                            <div class="text-sm text-gray-600">Avg Quote Time</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-2xl font-bold text-ark-brown-800">24/7</div>
+                            <div class="text-sm text-gray-600">Support</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Right Column - Hero Visual/Form Preview -->
+                <div class="relative" data-aos="fade-left">
+                    <div class="bg-white rounded-2xl shadow-2xl p-8 border border-gray-100">
+                        <div class="text-center mb-6">
+                            <h3 class="text-2xl font-bold text-ark-brown-800 mb-2">Quick Quote Calculator</h3>
+                            <p class="text-gray-600">Get your personalized insurance quote in minutes</p>
+                        </div>
+                        
+                        <!-- Quick Form Preview -->
+                        <form class="quote-preview-form space-y-4">
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Insurance Type</label>
+                                <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent">
+                                    <option value="">Select Insurance Type</option>
+                                    <option value="life">Life Insurance</option>
+                                    <option value="health">Health Insurance (Coming Soon)</option>
+                                    <option value="pc">Property & Casualty (Future)</option>
+                                </select>
+                            </div>
+                            
+                            <div class="grid grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-sm font-semibold text-gray-700 mb-2">Age</label>
+                                    <input type="number" placeholder="Your age" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-semibold text-gray-700 mb-2">Coverage Amount</label>
+                                    <select class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent">
+                                        <option value="">Select Amount</option>
+                                        <option value="100k">$100,000</option>
+                                        <option value="250k">$250,000</option>
+                                        <option value="500k">$500,000</option>
+                                        <option value="1m">$1,000,000+</option>
+                                    </select>
+                                </div>
+                            </div>
+                            
+                            <button type="button" class="w-full bg-gradient-to-r from-ark-brown-700 to-black text-white py-4 rounded-lg font-bold text-lg hover:from-ark-brown-700 hover:to-ark-brown-900 transition-all duration-300 shadow-lg">
+                                <i class="fas fa-chart-line mr-2"></i>Calculate My Quote
+                            </button>
+                        </form>
+                        
+                        <!-- Security Indicator -->
+                        <div class="flex items-center justify-center mt-4 text-sm text-gray-600">
+                            <i class="fas fa-lock text-ark-accent-500 mr-2"></i>
+                            <span>Your information is secure and protected</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Floating Elements -->
+                    <div class="absolute -top-6 -right-6 bg-ark-gold-500 text-white p-3 rounded-full shadow-lg">
+                        <i class="fas fa-shield-alt text-2xl"></i>
+                    </div>
+                    <div class="absolute -bottom-6 -left-6 bg-ark-accent-500 text-white p-3 rounded-full shadow-lg">
+                        <i class="fas fa-check-circle text-2xl"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LIVE SOCIAL PROOF & URGENCY BAR -->
+    <section class="bg-gradient-to-r from-ark-brown-900 to-black text-white py-4 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Scrolling Trust Indicators -->
+            <div class="flex items-center justify-center space-x-8 md:space-x-12 text-sm font-medium">
+                <div class="flex items-center space-x-2 whitespace-nowrap">
+                    <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                    <span class="live-counter">Last quote: <span class="text-ark-gold-500 font-bold">12 minutes ago</span></span>
+                </div>
+                <div class="flex items-center space-x-2 whitespace-nowrap">
+                    <div class="w-2 h-2 bg-ark-gold-500 rounded-full animate-pulse"></div>
+                    <span>Policies written this month: <span class="text-ark-gold-500 font-bold counter-policies">47</span></span>
+                </div>
+                <div class="flex items-center space-x-2 whitespace-nowrap">
+                    <div class="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                    <span class="hidden md:inline">Average customer saves: <span class="text-ark-gold-500 font-bold">$1,840/year</span></span>
+                </div>
+                <div class="flex items-center space-x-2 whitespace-nowrap">
+                    <i class="fas fa-star text-yellow-400"></i>
+                    <span>BBB A+ Rating</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Background Animation -->
+        <div class="absolute inset-0 overflow-hidden pointer-events-none">
+            <div class="absolute -top-1 -left-1 w-3 h-3 bg-ark-gold-500 rounded-full opacity-20 animate-ping"></div>
+            <div class="absolute top-2 right-10 w-2 h-2 bg-green-400 rounded-full opacity-30 animate-ping animation-delay-1000"></div>
+        </div>
+    </section>
+
+    <!-- Trust Indicators Bar -->
+    <section class="bg-white py-8 border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+                <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-certificate text-3xl text-ark-brown-600 mb-2"></i>
+                    <div class="font-semibold text-gray-800">Licensed Professional</div>
+                    <div class="text-sm text-gray-600">NJ State Licensed</div>
+                </div>
+                <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-clock text-3xl text-ark-accent-500 mb-2"></i>
+                    <div class="font-semibold text-gray-800">Quick Processing</div>
+                    <div class="text-sm text-gray-600">Same Day Quotes</div>
+                </div>
+                <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-map-marked-alt text-3xl text-ark-gold-500 mb-2"></i>
+                    <div class="font-semibold text-gray-800">Expanding Coverage</div>
+                    <div class="text-sm text-gray-600">Nationwide Soon</div>
+                </div>
+                <div class="flex flex-col items-center" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-headset text-3xl text-ark-brown-600 mb-2"></i>
+                    <div class="font-semibold text-gray-800">Personal Service</div>
+                    <div class="text-sm text-gray-600">Direct Agent Access</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROFESSIONAL CERTIFICATIONS & BBB SECTION -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-ark-brown-900 mb-4">
+                    Licensed, Certified & Trusted
+                </h2>
+                <p class="text-lg text-gray-700">
+                    Professional credentials and ratings that guarantee your protection
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8 items-center">
+                <!-- BBB A+ Rating -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-gradient-to-b from-blue-600 to-blue-800 rounded-xl p-4 mb-3 group-hover:shadow-lg transition-shadow">
+                        <div class="text-white font-bold text-sm">BBB</div>
+                        <div class="text-white text-2xl font-bold">A+</div>
+                        <div class="text-white text-xs">RATING</div>
+                    </div>
+                    <div class="text-xs text-gray-600">Better Business Bureau</div>
+                </div>
+                
+                <!-- NJ Licensed -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-gradient-to-b from-ark-brown-600 to-ark-brown-800 rounded-xl p-4 mb-3 group-hover:shadow-lg transition-shadow">
+                        <i class="fas fa-certificate text-white text-2xl mb-1"></i>
+                        <div class="text-white text-xs font-bold">NJ LICENSED</div>
+                    </div>
+                    <div class="text-xs text-gray-600">State Licensed Agent</div>
+                </div>
+                
+                <!-- Zero Complaints -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-gradient-to-b from-green-600 to-green-800 rounded-xl p-4 mb-3 group-hover:shadow-lg transition-shadow">
+                        <div class="text-white text-2xl font-bold">0</div>
+                        <div class="text-white text-xs font-bold">COMPLAINTS</div>
+                    </div>
+                    <div class="text-xs text-gray-600">Clean Record</div>
+                </div>
+                
+                <!-- 5 Star Rating -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="400">
+                    <div class="bg-gradient-to-b from-yellow-500 to-yellow-700 rounded-xl p-4 mb-3 group-hover:shadow-lg transition-shadow">
+                        <div class="flex justify-center mb-1">
+                            <i class="fas fa-star text-white text-lg"></i>
+                        </div>
+                        <div class="text-white text-xl font-bold">5.0</div>
+                        <div class="text-white text-xs font-bold">RATING</div>
+                    </div>
+                    <div class="text-xs text-gray-600">Google Reviews</div>
+                </div>
+                
+                <!-- Professional Insurance Agents -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="500">
+                    <div class="bg-gradient-to-b from-purple-600 to-purple-800 rounded-xl p-4 mb-3 group-hover:shadow-lg transition-shadow">
+                        <i class="fas fa-shield-alt text-white text-2xl mb-1"></i>
+                        <div class="text-white text-xs font-bold">MEMBER</div>
+                    </div>
+                    <div class="text-xs text-gray-600">Professional Agents</div>
+                </div>
+                
+                <!-- Bonded & Insured -->
+                <div class="text-center group" data-aos="fade-up" data-aos-delay="600">
+                    <div class="bg-gradient-to-b from-ark-gold-500 to-ark-gold-600 rounded-xl p-4 mb-3 group-hover:shadow-lg transition-shadow">
+                        <i class="fas fa-lock text-black text-2xl mb-1"></i>
+                        <div class="text-black text-xs font-bold">BONDED</div>
+                    </div>
+                    <div class="text-xs text-gray-600">Fully Protected</div>
+                </div>
+            </div>
+            
+            <!-- Trust Statement -->
+            <div class="mt-12 text-center" data-aos="fade-up" data-aos-delay="700">
+                <div class="bg-ark-brown-50 rounded-2xl p-8 max-w-4xl mx-auto">
+                    <h3 class="text-xl font-bold text-ark-brown-900 mb-4">Your Protection is Our Guarantee</h3>
+                    <p class="text-gray-700 leading-relaxed">
+                        Kevin Brown Jr. is a fully licensed, bonded, and insured insurance professional operating under 
+                        the strict regulations of the New Jersey Department of Banking and Insurance. Our spotless record 
+                        and A+ BBB rating reflect our commitment to ethical business practices and exceptional customer service.
+                    </p>
+                    <div class="mt-6 flex justify-center items-center space-x-4 text-sm text-gray-600">
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span>Licensed Professional</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span>Bonded & Insured</span>
+                        </div>
+                        <div class="flex items-center">
+                            <i class="fas fa-check-circle text-green-500 mr-2"></i>
+                            <span>Zero Complaints</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Insurance Products Section -->
+    <section id="insurance" class="py-20 bg-ark-brown-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold text-ark-brown-900 mb-4">
+                    Professional Insurance Solutions
+                </h2>
+                <p class="text-xl text-gray-700 max-w-3xl mx-auto">
+                    Comprehensive coverage options designed to protect what matters most. 
+                    Currently serving New Jersey with plans for nationwide expansion.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Life Insurance Card -->
+                <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                    <!-- Life Insurance Image -->
+                    <div class="h-48 bg-gradient-to-br from-ark-brown-100 to-ark-brown-200 relative overflow-hidden">
+                        <img src="images/life-insurance-family.jpg" alt="Happy family representing life insurance protection" class="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div>
+                    </div>
+                    <div class="p-8">
+                        
+                        <h3 class="text-2xl font-bold text-ark-brown-900 mb-4">Life Insurance</h3>
+                        <p class="text-gray-600 mb-6">
+                            Protect your family's financial future with comprehensive life insurance coverage. 
+                            Term and whole life options available.
+                        </p>
+                        
+                        <div class="space-y-3 mb-6">
+                            <div class="flex items-center text-sm">
+                                <i class="fas fa-check text-ark-accent-500 mr-3"></i>
+                                <span>Term & Whole Life Options</span>
+                            </div>
+                            <div class="flex items-center text-sm">
+                                <i class="fas fa-check text-ark-accent-500 mr-3"></i>
+                                <span>Competitive Rates</span>
+                            </div>
+                            <div class="flex items-center text-sm">
+                                <i class="fas fa-check text-ark-accent-500 mr-3"></i>
+                                <span>Quick Approval Process</span>
+                            </div>
+                            <div class="flex items-center text-sm">
+                                <i class="fas fa-check text-ark-accent-500 mr-3"></i>
+                                <span>Family Protection Plans</span>
+                            </div>
+                        </div>
+                        
+                        <div class="border-t pt-6">
+                            <button class="w-full bg-ark-brown-600 hover:bg-ark-brown-700 text-white py-3 rounded-lg font-semibold transition-colors duration-300">
+                                Get Life Quote
+                            </button>
+                            <div class="text-center mt-3">
+                                <span class="text-sm text-gray-500">Starting from $15/month</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Health Insurance Card -->
+                <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 relative overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                    <!-- Coming Soon Badge -->
+                    <div class="absolute top-4 right-4 bg-ark-gold-500 text-white px-4 py-1 rounded-full text-sm font-bold z-10">
+                        Coming Soon
+                    </div>
+                    
+                    <!-- Health Insurance Image -->
+                    <div class="h-48 bg-gradient-to-br from-ark-brown-100 to-ark-brown-200 relative overflow-hidden">
+                        <img src="images/health-insurance-doctor.jpg" alt="Professional doctor with stethoscope representing health insurance" class="w-full h-full object-cover opacity-75 hover:opacity-90 transition-opacity duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+                    </div>
+                    <div class="p-8">
+                        
+                        <h3 class="text-2xl font-bold text-ark-brown-900 mb-4">Health Insurance</h3>
+                        <p class="text-gray-600 mb-6">
+                            Comprehensive health coverage for individuals and families. 
+                            Getting licensed to offer health insurance by year-end.
+                        </p>
+                        
+                        <div class="space-y-3 mb-6">
+                            <div class="flex items-center text-sm">
+                                <i class="fas fa-clock text-ark-gold-500 mr-3"></i>
+                                <span>Individual & Family Plans</span>
+                            </div>
+                            <div class="flex items-center text-sm">
+                                <i class="fas fa-clock text-ark-gold-500 mr-3"></i>
+                                <span>ACA Compliant Options</span>
+                            </div>
+                            <div class="flex items-center text-sm">
+                                <i class="fas fa-clock text-ark-gold-500 mr-3"></i>
+                                <span>Preventive Care Coverage</span>
+                            </div>
+                            <div class="flex items-center text-sm">
+                                <i class="fas fa-clock text-ark-gold-500 mr-3"></i>
+                                <span>Prescription Benefits</span>
+                            </div>
+                        </div>
+                        
+                        <div class="border-t pt-6">
+                            <button class="w-full bg-gray-300 text-gray-500 py-3 rounded-lg font-semibold cursor-not-allowed" disabled>
+                                Notify Me When Available
+                            </button>
+                            <div class="text-center mt-3">
+                                <span class="text-sm text-ark-gold-600 font-semibold">License Expected: Q4 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- P&C Insurance Card -->
+                <div class="bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100 relative overflow-hidden" data-aos="fade-up" data-aos-delay="300">
+                    <!-- Future Expansion Badge -->
+                    <div class="absolute top-4 right-4 bg-ark-brown-600 text-white px-4 py-1 rounded-full text-sm font-bold z-10">
+                        Future Expansion
+                    </div>
+                    
+                    <!-- P&C Insurance Image -->
+                    <div class="h-48 bg-gradient-to-br from-ark-brown-100 to-ark-brown-200 relative overflow-hidden">
+                        <img src="images/property-insurance-home.jpg" alt="Beautiful home and car representing property and casualty insurance" class="w-full h-full object-cover opacity-75 hover:opacity-90 transition-opacity duration-300">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
+                    </div>
+                    <div class="p-8">
+                        
+                        <h3 class="text-2xl font-bold text-ark-brown-900 mb-4">Property & Casualty</h3>
+                        <p class="text-gray-600 mb-6">
+                            Protect your home, auto, and assets with comprehensive P&C coverage. 
+                            Planning to add P&C licensing by year-end.
+                        </p>
+                        
+                        <div class="space-y-3 mb-6">
+                            <div class="flex items-center text-sm">
+                                <i class="fas fa-clock text-ark-brown-500 mr-3"></i>
+                                <span>Home Insurance</span>
+                            </div>
+                            <div class="flex items-center text-sm">
+                                <i class="fas fa-clock text-ark-brown-500 mr-3"></i>
+                                <span>Auto Insurance</span>
+                            </div>
+                            <div class="flex items-center text-sm">
+                                <i class="fas fa-clock text-ark-brown-500 mr-3"></i>
+                                <span>Umbrella Policies</span>
+                            </div>
+                            <div class="flex items-center text-sm">
+                                <i class="fas fa-clock text-ark-brown-500 mr-3"></i>
+                                <span>Business Coverage</span>
+                            </div>
+                        </div>
+                        
+                        <div class="border-t pt-6">
+                            <button class="w-full bg-gray-300 text-gray-500 py-3 rounded-lg font-semibold cursor-not-allowed" disabled>
+                                Coming Soon
+                            </button>
+                            <div class="text-center mt-3">
+                                <span class="text-sm text-ark-brown-600 font-semibold">License Expected: Q4 2024</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- COMPETITIVE ADVANTAGE SECTION -->
+    <section class="py-20 bg-gradient-to-br from-white to-ark-brown-50 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <div class="inline-flex items-center bg-ark-gold-500 text-black px-4 py-2 rounded-full text-sm font-bold mb-4">
+                    <i class="fas fa-crown mr-2"></i>
+                    Why Clients Choose Ark Over Big Competitors
+                </div>
+                <h2 class="text-4xl font-bold text-ark-brown-900 mb-4">
+                    Personal Service vs. Corporate Call Centers
+                </h2>
+                <p class="text-xl text-gray-700 max-w-3xl mx-auto">
+                    See why smart New Jersey residents choose personal insurance service over faceless corporations
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Comparison Chart -->
+                <div class="bg-white rounded-2xl shadow-2xl p-8 border-2 border-ark-brown-200" data-aos="fade-right">
+                    <h3 class="text-2xl font-bold text-ark-brown-900 mb-6 text-center">Service Comparison</h3>
+                    
+                    <div class="space-y-6">
+                        <!-- Response Time -->
+                        <div class="flex items-center justify-between">
+                            <div class="text-left">
+                                <div class="font-semibold text-gray-900">Response Time</div>
+                                <div class="text-sm text-gray-600">When you need help</div>
+                            </div>
+                            <div class="text-right">
+                                <div class="text-ark-brown-800 font-bold">Ark: 2 Hours</div>
+                                <div class="text-red-600 text-sm">Big Corps: 24+ Hours</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Personal Service -->
+                        <div class="flex items-center justify-between border-t pt-4">
+                            <div class="text-left">
+                                <div class="font-semibold text-gray-900">Agent Access</div>
+                                <div class="text-sm text-gray-600">Who handles your policy</div>
+                            </div>
+                            <div class="text-right">
+                                <div class="text-ark-brown-800 font-bold">Direct Agent</div>
+                                <div class="text-red-600 text-sm">Call Center Rep</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Local Knowledge -->
+                        <div class="flex items-center justify-between border-t pt-4">
+                            <div class="text-left">
+                                <div class="font-semibold text-gray-900">Local Knowledge</div>
+                                <div class="text-sm text-gray-600">NJ-specific expertise</div>
+                            </div>
+                            <div class="text-right">
+                                <div class="text-ark-brown-800 font-bold">NJ Specialist</div>
+                                <div class="text-red-600 text-sm">Generic National</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Fees -->
+                        <div class="flex items-center justify-between border-t pt-4">
+                            <div class="text-left">
+                                <div class="font-semibold text-gray-900">Hidden Fees</div>
+                                <div class="text-sm text-gray-600">What you actually pay</div>
+                            </div>
+                            <div class="text-right">
+                                <div class="text-ark-brown-800 font-bold">Zero Hidden</div>
+                                <div class="text-red-600 text-sm">Multiple Fees</div>
+                            </div>
+                        </div>
+                        
+                        <!-- Claims -->
+                        <div class="flex items-center justify-between border-t pt-4">
+                            <div class="text-left">
+                                <div class="font-semibold text-gray-900">Claims Support</div>
+                                <div class="text-sm text-gray-600">When you need to file</div>
+                            </div>
+                            <div class="text-right">
+                                <div class="text-ark-brown-800 font-bold">Personal Guidance</div>
+                                <div class="text-red-600 text-sm">Automated System</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8 p-4 bg-ark-brown-50 rounded-xl">
+                        <div class="flex items-center text-sm">
+                            <i class="fas fa-trophy text-ark-gold-500 mr-2"></i>
+                            <span class="font-semibold text-ark-brown-800">The Choice is Clear: Personal Service Wins</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Benefits List -->
+                <div class="space-y-6" data-aos="fade-left">
+                    <div class="bg-white rounded-xl p-6 shadow-lg border border-ark-brown-100">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-ark-brown-600 rounded-xl flex items-center justify-center">
+                                <i class="fas fa-user-tie text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-ark-brown-900 mb-2">Direct Agent Relationship</h4>
+                                <p class="text-gray-600">You get Kevin's personal cell phone. No call centers, no transfers, no waiting on hold.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-lg border border-ark-brown-100">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-ark-brown-600 rounded-xl flex items-center justify-center">
+                                <i class="fas fa-map-marked-alt text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-ark-brown-900 mb-2">New Jersey Expertise</h4>
+                                <p class="text-gray-600">Deep knowledge of NJ insurance laws, requirements, and local considerations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-white rounded-xl p-6 shadow-lg border border-ark-brown-100">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-ark-brown-600 rounded-xl flex items-center justify-center">
+                                <i class="fas fa-rocket text-white text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-ark-brown-900 mb-2">Faster Everything</h4>
+                                <p class="text-gray-600">Quotes in minutes, not days. Changes processed immediately. Claims handled personally.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-r from-ark-brown-700 to-ark-brown-900 rounded-xl p-6 text-white">
+                        <div class="flex items-start space-x-4">
+                            <div class="w-12 h-12 bg-ark-gold-500 rounded-xl flex items-center justify-center">
+                                <i class="fas fa-shield-alt text-black text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold mb-2">Growing Nationwide</h4>
+                                <p class="text-ark-brown-100">Currently mastering New Jersey, expanding to serve America. Get in early!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Quote Calculator Section -->
+    <section id="quote" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12" data-aos="fade-up">
+                <h2 class="text-4xl font-bold text-ark-brown-900 mb-4">
+                    Get Your Personalized Quote
+                </h2>
+                <p class="text-xl text-gray-700">
+                    Professional insurance quotes in minutes, not hours
+                </p>
+            </div>
+            
+            <!-- Quote Calculator -->
+            <div class="bg-gradient-to-br from-ark-brown-50 to-white rounded-2xl shadow-2xl p-8 border border-gray-100" data-aos="fade-up" data-aos-delay="200">
+                <div class="quote-calculator">
+                    <!-- Progress Bar -->
+                    <div class="mb-8">
+                        <div class="flex items-center justify-between text-sm font-semibold text-gray-600 mb-2">
+                            <span class="step-label active" data-step="1">Personal Info</span>
+                            <span class="step-label" data-step="2">Coverage Details</span>
+                            <span class="step-label" data-step="3">Review Quote</span>
+                        </div>
+                        <div class="w-full bg-gray-200 rounded-full h-2">
+                            <div class="progress-bar bg-gradient-to-r from-ark-brown-500 to-ark-accent-500 h-2 rounded-full transition-all duration-500" style="width: 33%"></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 1: Personal Information -->
+                    <div class="quote-step active" data-step="1">
+                        <h3 class="text-2xl font-bold text-ark-brown-800 mb-6">Tell us about yourself</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">First Name *</label>
+                                <input type="text" name="firstName" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent" placeholder="Enter your first name">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Last Name *</label>
+                                <input type="text" name="lastName" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent" placeholder="Enter your last name">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Date of Birth *</label>
+                                <input type="date" name="dateOfBirth" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Gender *</label>
+                                <select name="gender" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent">
+                                    <option value="">Select Gender</option>
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Email Address *</label>
+                                <input type="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent" placeholder="Enter your email">
+                            </div>
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Phone Number *</label>
+                                <input type="tel" name="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent" placeholder="(555) 123-4567">
+                            </div>
+                        </div>
+                        
+                        <div class="mt-6">
+                            <label class="block text-sm font-semibold text-gray-700 mb-2">ZIP Code *</label>
+                            <input type="text" name="zipCode" class="w-full md:w-48 px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent" placeholder="07001">
+                        </div>
+                        
+                        <div class="flex justify-end mt-8">
+                            <button type="button" class="next-step bg-ark-brown-600 hover:bg-ark-brown-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                                Continue <i class="fas fa-arrow-right ml-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 2: Coverage Details -->
+                    <div class="quote-step" data-step="2" style="display: none;">
+                        <h3 class="text-2xl font-bold text-ark-brown-800 mb-6">Coverage preferences</h3>
+                        <div class="space-y-6">
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Insurance Type *</label>
+                                <select name="insuranceType" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent">
+                                    <option value="">Select Insurance Type</option>
+                                    <option value="term-life">Term Life Insurance</option>
+                                    <option value="whole-life">Whole Life Insurance</option>
+                                    <option value="universal-life">Universal Life Insurance</option>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Coverage Amount *</label>
+                                <select name="coverageAmount" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent">
+                                    <option value="">Select Coverage Amount</option>
+                                    <option value="100000">$100,000</option>
+                                    <option value="250000">$250,000</option>
+                                    <option value="500000">$500,000</option>
+                                    <option value="750000">$750,000</option>
+                                    <option value="1000000">$1,000,000</option>
+                                    <option value="custom">Custom Amount</option>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Do you smoke?</label>
+                                <div class="flex space-x-4">
+                                    <label class="flex items-center">
+                                        <input type="radio" name="smoker" value="no" class="mr-2 text-ark-brown-600 focus:ring-ark-brown-500">
+                                        <span>No</span>
+                                    </label>
+                                    <label class="flex items-center">
+                                        <input type="radio" name="smoker" value="yes" class="mr-2 text-ark-brown-600 focus:ring-ark-brown-500">
+                                        <span>Yes</span>
+                                    </label>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Overall Health</label>
+                                <select name="health" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent">
+                                    <option value="">Select Health Status</option>
+                                    <option value="excellent">Excellent</option>
+                                    <option value="good">Good</option>
+                                    <option value="fair">Fair</option>
+                                    <option value="poor">Poor</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="flex justify-between mt-8">
+                            <button type="button" class="prev-step border-2 border-gray-300 text-gray-700 hover:border-ark-brown-500 hover:text-ark-brown-600 px-8 py-3 rounded-lg font-semibold transition-colors">
+                                <i class="fas fa-arrow-left mr-2"></i> Back
+                            </button>
+                            <button type="button" class="next-step bg-ark-brown-600 hover:bg-ark-brown-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                                Calculate Quote <i class="fas fa-calculator ml-2"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <!-- Step 3: Quote Results -->
+                    <div class="quote-step" data-step="3" style="display: none;">
+                        <h3 class="text-2xl font-bold text-ark-brown-800 mb-6">Your Personalized Quote</h3>
+                        
+                        <div class="quote-results bg-white rounded-xl p-6 border border-gray-200 mb-6">
+                            <div class="text-center mb-6">
+                                <div class="estimated-premium text-4xl font-bold text-ark-accent-600 mb-2">$45/month</div>
+                                <div class="text-gray-600">Estimated Monthly Premium</div>
+                            </div>
+                            
+                            <div class="grid grid-cols-2 gap-4 text-sm">
+                                <div>
+                                    <span class="font-semibold text-gray-700">Coverage Type:</span>
+                                    <div class="coverage-type-result">Term Life Insurance</div>
+                                </div>
+                                <div>
+                                    <span class="font-semibold text-gray-700">Coverage Amount:</span>
+                                    <div class="coverage-amount-result">$500,000</div>
+                                </div>
+                                <div>
+                                    <span class="font-semibold text-gray-700">Annual Premium:</span>
+                                    <div class="annual-premium">$540</div>
+                                </div>
+                                <div>
+                                    <span class="font-semibold text-gray-700">Policy Term:</span>
+                                    <div>20 Years</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="bg-ark-brown-50 rounded-xl p-6 mb-6">
+                            <h4 class="font-bold text-ark-brown-800 mb-3">Next Steps:</h4>
+                            <ul class="space-y-2 text-sm">
+                                <li class="flex items-center">
+                                    <i class="fas fa-check text-ark-accent-500 mr-2"></i>
+                                    <span>Schedule a call with Kevin Brown Jr, your licensed agent</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-check text-ark-accent-500 mr-2"></i>
+                                    <span>Review detailed policy options and benefits</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-check text-ark-accent-500 mr-2"></i>
+                                    <span>Complete simple health questionnaire</span>
+                                </li>
+                                <li class="flex items-center">
+                                    <i class="fas fa-check text-ark-accent-500 mr-2"></i>
+                                    <span>Get approved and activate your coverage</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <button type="button" class="schedule-call flex-1 bg-ark-gold-500 hover:bg-ark-gold-600 text-white py-3 rounded-lg font-semibold transition-colors">
+                                <i class="fas fa-phone mr-2"></i> Schedule Call with Agent
+                            </button>
+                            <button type="button" class="email-quote flex-1 border-2 border-ark-brown-600 text-ark-brown-600 hover:bg-ark-brown-600 hover:text-white py-3 rounded-lg font-semibold transition-colors">
+                                <i class="fas fa-envelope mr-2"></i> Email Me Quote
+                            </button>
+                        </div>
+                        
+                        <div class="flex justify-center mt-6">
+                            <button type="button" class="restart-quote text-gray-500 hover:text-ark-brown-600 font-semibold">
+                                <i class="fas fa-redo mr-2"></i> Start New Quote
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- URGENCY & SCARCITY SECTION -->
+    <section class="py-20 bg-gradient-to-r from-ark-brown-900 via-black to-ark-brown-900 text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center" data-aos="fade-up">
+                <div class="inline-flex items-center bg-red-600 text-white px-4 py-2 rounded-full text-sm font-bold mb-6 animate-pulse">
+                    <i class="fas fa-clock mr-2"></i>
+                    Limited Time Q4 2024 Offer
+                </div>
+                
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">
+                    Lock In Your 2024 Rates Before Year-End!
+                </h2>
+                
+                <p class="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+                    Premium increases coming January 1st, 2025. Secure today's lower rates 
+                    with a policy started before December 31st, 2024.
+                </p>
+                
+                <!-- Countdown Timer -->
+                <div class="flex justify-center items-center space-x-4 md:space-x-8 mb-8">
+                    <div class="text-center">
+                        <div class="bg-ark-brown-800 rounded-lg p-4 min-w-[80px]">
+                            <div class="text-2xl md:text-3xl font-bold text-ark-gold-500 countdown-days">78</div>
+                            <div class="text-xs text-gray-400">DAYS</div>
+                        </div>
+                    </div>
+                    <div class="text-ark-gold-500 text-2xl">:</div>
+                    <div class="text-center">
+                        <div class="bg-ark-brown-800 rounded-lg p-4 min-w-[80px]">
+                            <div class="text-2xl md:text-3xl font-bold text-ark-gold-500 countdown-hours">14</div>
+                            <div class="text-xs text-gray-400">HOURS</div>
+                        </div>
+                    </div>
+                    <div class="text-ark-gold-500 text-2xl">:</div>
+                    <div class="text-center">
+                        <div class="bg-ark-brown-800 rounded-lg p-4 min-w-[80px]">
+                            <div class="text-2xl md:text-3xl font-bold text-ark-gold-500 countdown-minutes">27</div>
+                            <div class="text-xs text-gray-400">MIN</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-ark-brown-800/50 rounded-2xl p-8 mb-8 border border-ark-gold-500/30">
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+                        <div>
+                            <div class="text-2xl font-bold text-ark-gold-500 mb-2">$15/month</div>
+                            <div class="text-sm text-gray-300">Starting Life Insurance</div>
+                            <div class="text-xs text-red-400 mt-1">Increases to $19/month Jan 1st</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl font-bold text-ark-gold-500 mb-2">No Fees</div>
+                            <div class="text-sm text-gray-300">Policy Setup & Management</div>
+                            <div class="text-xs text-red-400 mt-1">$99 setup fee starting 2025</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl font-bold text-ark-gold-500 mb-2">2-Hour</div>
+                            <div class="text-sm text-gray-300">Quote Response Time</div>
+                            <div class="text-xs text-green-400 mt-1">Guaranteed through 2024</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Scarcity Elements -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-red-900/30 rounded-xl p-6 border border-red-500/30">
+                        <div class="flex items-center justify-center mb-4">
+                            <i class="fas fa-users text-red-400 text-2xl mr-3"></i>
+                            <span class="text-lg font-bold">Limited Capacity</span>
+                        </div>
+                        <p class="text-gray-300 text-sm">Only accepting <span class="text-red-400 font-bold">50 new clients</span> before year-end to ensure quality service.</p>
+                        <div class="mt-3 bg-red-500/20 rounded-full h-2">
+                            <div class="bg-red-500 h-2 rounded-full" style="width: 76%"></div>
+                        </div>
+                        <p class="text-xs text-red-300 mt-2">38 spots taken • 12 remaining</p>
+                    </div>
+                    
+                    <div class="bg-ark-brown-800/30 rounded-xl p-6 border border-ark-gold-500/30">
+                        <div class="flex items-center justify-center mb-4">
+                            <i class="fas fa-certificate text-ark-gold-500 text-2xl mr-3"></i>
+                            <span class="text-lg font-bold">Rate Lock Guarantee</span>
+                        </div>
+                        <p class="text-gray-300 text-sm">Your 2024 rates <span class="text-ark-gold-500 font-bold">locked for life</span> when you start your policy before Dec 31st.</p>
+                        <div class="mt-3 text-xs text-ark-gold-300">
+                            <i class="fas fa-shield-alt mr-1"></i>
+                            Protected by NJ Insurance Commission
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button class="bg-ark-gold-500 hover:bg-ark-gold-600 text-black px-8 py-4 rounded-lg font-bold text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                        <i class="fas fa-bolt mr-2"></i>Lock My 2024 Rates Now
+                    </button>
+                    <button class="border-2 border-white text-white hover:bg-white hover:text-black px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300">
+                        <i class="fas fa-phone mr-2"></i>Call for Instant Quote
+                    </button>
+                </div>
+                
+                <p class="text-xs text-gray-400 mt-4">
+                    * Rates valid for policies initiated before 11:59 PM EST, December 31st, 2024
+                </p>
+            </div>
+        </div>
+        
+        <!-- Background Effects -->
+        <div class="absolute inset-0 overflow-hidden pointer-events-none">
+            <div class="absolute top-1/4 left-10 w-32 h-32 bg-ark-gold-500/10 rounded-full blur-xl animate-pulse"></div>
+            <div class="absolute bottom-1/4 right-10 w-40 h-40 bg-red-500/10 rounded-full blur-xl animate-pulse animation-delay-2000"></div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-20 bg-ark-brown-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold text-ark-brown-900 mb-4">
+                    What Our Customers Say
+                </h2>
+                <p class="text-xl text-gray-700">
+                    Real reviews from satisfied customers across New Jersey
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="ml-2 text-sm text-gray-600">5.0/5</span>
+                    </div>
+                    <blockquote class="text-gray-700 mb-6">
+                        "Kevin made getting life insurance so easy! The online quote was accurate, 
+                        and he walked me through everything personally. Great service and competitive rates."
+                    </blockquote>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-ark-brown-100 rounded-full flex items-center justify-center">
+                            <span class="text-ark-brown-800 font-semibold">MJ</span>
+                        </div>
+                        <div class="ml-4">
+                            <div class="font-semibold text-gray-900">Maria Johnson</div>
+                            <div class="text-sm text-gray-600">Newark, NJ</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="ml-2 text-sm text-gray-600">5.0/5</span>
+                    </div>
+                    <blockquote class="text-gray-700 mb-6">
+                        "Finally found an agent who actually cares about their clients. Kevin took time to 
+                        understand our family's needs. Can't wait for the health insurance option!"
+                    </blockquote>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-ark-accent-100 rounded-full flex items-center justify-center">
+                            <span class="text-ark-accent-800 font-semibold">DS</span>
+                        </div>
+                        <div class="ml-4">
+                            <div class="font-semibold text-gray-900">David Smith</div>
+                            <div class="text-sm text-gray-600">Jersey City, NJ</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 border border-gray-100" data-aos="fade-up" data-aos-delay="300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <span class="ml-2 text-sm text-gray-600">5.0/5</span>
+                    </div>
+                    <blockquote class="text-gray-700 mb-6">
+                        "Professional, knowledgeable, and honest. Kevin helped us get the right coverage 
+                        without overselling. Excited about Ark Insurance expanding nationwide!"
+                    </blockquote>
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 bg-ark-gold-100 rounded-full flex items-center justify-center">
+                            <span class="text-ark-gold-800 font-semibold">LW</span>
+                        </div>
+                        <div class="ml-4">
+                            <div class="font-semibold text-gray-900">Lisa Williams</div>
+                            <div class="text-sm text-gray-600">Trenton, NJ</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- Content -->
+                <div data-aos="fade-right">
+                    <h2 class="text-4xl font-bold text-ark-brown-900 mb-6">
+                        Meet Your Licensed Agent
+                    </h2>
+                    <p class="text-xl text-gray-700 mb-6">
+                        Hi, I'm Kevin Brown Jr, founder of Ark Insurance. I'm passionate about 
+                        protecting families and businesses with the right insurance coverage.
+                    </p>
+                    
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-start">
+                            <i class="fas fa-certificate text-ark-brown-600 mt-1 mr-3"></i>
+                            <div>
+                                <div class="font-semibold text-gray-900">Licensed Life Insurance Agent</div>
+                                <div class="text-gray-600">Currently licensed in New Jersey</div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <i class="fas fa-graduation-cap text-ark-accent-500 mt-1 mr-3"></i>
+                            <div>
+                                <div class="font-semibold text-gray-900">Pursuing Additional Licenses</div>
+                                <div class="text-gray-600">Health Insurance & P&C by end of year</div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <i class="fas fa-map-marked-alt text-ark-gold-500 mt-1 mr-3"></i>
+                            <div>
+                                <div class="font-semibold text-gray-900">Expanding Nationwide</div>
+                                <div class="text-gray-600">Planning multi-state licensing in 2025</div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <i class="fas fa-handshake text-ark-brown-600 mt-1 mr-3"></i>
+                            <div>
+                                <div class="font-semibold text-gray-900">Personal Service</div>
+                                <div class="text-gray-600">Direct access to your agent, no call centers</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-ark-brown-50 rounded-xl p-6">
+                        <h3 class="font-bold text-ark-brown-800 mb-3">Our Mission</h3>
+                        <p class="text-gray-700">
+                            To make insurance simple, affordable, and accessible. Starting in New Jersey 
+                            and expanding nationwide to help more families protect what matters most.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Professional Agent Photo -->
+                <div class="relative" data-aos="fade-left">
+                    <div class="bg-gradient-to-br from-ark-brown-100 to-white rounded-2xl shadow-2xl p-8 text-center">
+                        <div class="w-48 h-48 mx-auto mb-6 relative overflow-hidden rounded-full border-4 border-ark-brown-200">
+                            <img src="images/professional-agent.jpg" alt="Kevin Brown Jr - Licensed Insurance Agent" class="w-full h-full object-cover">
+                            <div class="absolute inset-0 bg-gradient-to-t from-ark-brown-900/20 to-transparent"></div>
+                        </div>
+                        <h3 class="text-2xl font-bold text-ark-brown-900 mb-2">Kevin Brown Jr</h3>
+                        <p class="text-ark-brown-700 mb-4">Licensed Insurance Agent</p>
+                        <div class="space-y-2">
+                            <div class="text-sm text-gray-700">
+                                <i class="fas fa-envelope mr-2 text-ark-brown-600"></i>
+                                kevin@arkinsurance.com
+                            </div>
+                            <div class="text-sm text-gray-700">
+                                <i class="fas fa-phone mr-2 text-ark-brown-600"></i>
+                                (555) ARK-INSURE
+                            </div>
+                            <div class="text-sm text-gray-700">
+                                <i class="fas fa-map-marker-alt mr-2 text-ark-brown-600"></i>
+                                Licensed in New Jersey
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Floating Credentials -->
+                    <div class="absolute -top-4 -left-4 bg-ark-accent-500 text-white p-3 rounded-lg shadow-lg">
+                        <div class="text-xs font-bold">LICENSED</div>
+                        <div class="text-xs">NJ Agent</div>
+                    </div>
+                    
+                    <div class="absolute -bottom-4 -right-4 bg-ark-gold-500 text-white p-3 rounded-lg shadow-lg">
+                        <div class="text-xs font-bold">EXPANDING</div>
+                        <div class="text-xs">Nationwide</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gradient-to-br from-ark-brown-900 to-black text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-4">Ready to Get Started?</h2>
+                <p class="text-xl text-ark-brown-100">
+                    Contact us today for your personalized insurance quote
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Contact Information -->
+                <div data-aos="fade-right">
+                    <h3 class="text-2xl font-bold mb-6">Get in Touch</h3>
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-ark-brown-700 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-phone text-xl"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold">Phone</div>
+                                <div class="text-ark-brown-100">(555) ARK-INSURE</div>
+                                <div class="text-sm text-ark-brown-200">Monday - Friday, 8AM - 6PM EST</div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-ark-brown-700 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold">Email</div>
+                                <div class="text-ark-brown-100">kevin@arkinsurance.com</div>
+                                <div class="text-sm text-ark-brown-200">We respond within 2 hours</div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-ark-brown-700 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-map-marker-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold">Service Area</div>
+                                <div class="text-ark-brown-100">New Jersey (Statewide)</div>
+                                <div class="text-sm text-ark-brown-200">Expanding nationwide in 2025</div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-ark-brown-700 rounded-lg flex items-center justify-center mr-4">
+                                <i class="fas fa-calendar-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <div class="font-semibold">Schedule Consultation</div>
+                                <div class="text-ark-brown-100">Free 15-minute consultation</div>
+                                <div class="text-sm text-ark-brown-200">Available evenings & weekends</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Quick Contact Form -->
+                <div data-aos="fade-left">
+                    <div class="bg-white rounded-2xl p-8 text-gray-900">
+                        <h3 class="text-2xl font-bold text-ark-brown-900 mb-6">Quick Contact</h3>
+                        
+                        <form class="contact-form space-y-4">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-sm font-semibold text-gray-700 mb-2">First Name</label>
+                                    <input type="text" name="firstName" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent" placeholder="Your first name">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-semibold text-gray-700 mb-2">Last Name</label>
+                                    <input type="text" name="lastName" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent" placeholder="Your last name">
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Email</label>
+                                <input type="email" name="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent" placeholder="your@email.com">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Phone</label>
+                                <input type="tel" name="phone" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent" placeholder="(555) 123-4567">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">I'm interested in</label>
+                                <select name="interest" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent">
+                                    <option value="">Select Interest</option>
+                                    <option value="life-insurance">Life Insurance Quote</option>
+                                    <option value="health-insurance">Health Insurance (Notify When Available)</option>
+                                    <option value="pc-insurance">P&C Insurance (Notify When Available)</option>
+                                    <option value="consultation">General Consultation</option>
+                                </select>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-semibold text-gray-700 mb-2">Message (Optional)</label>
+                                <textarea name="message" rows="3" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-ark-brown-500 focus:border-transparent" placeholder="Tell us about your insurance needs..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-ark-gold-500 hover:bg-ark-gold-600 text-white py-4 rounded-lg font-bold text-lg transition-colors">
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-ark-brown-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-ark-brown-600 to-ark-brown-800 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-shield-alt text-white text-lg"></i>
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-bold">Ark Insurance</h1>
+                            <p class="text-sm text-gray-400">Licensed Professional Insurance Services</p>
+                        </div>
+                    </div>
+                    
+                    <p class="text-gray-300 mb-4 max-w-md">
+                        Professional insurance solutions from a licensed New Jersey agent. 
+                        Life insurance available now, with health and P&C coming soon. 
+                        Expanding nationwide to serve more families.
+                    </p>
+                    
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-linkedin text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-facebook text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="fab fa-twitter text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-300 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#insurance" class="text-gray-300 hover:text-white transition-colors">Insurance Types</a></li>
+                        <li><a href="#quote" class="text-gray-300 hover:text-white transition-colors">Get Quote</a></li>
+                        <li><a href="#about" class="text-gray-300 hover:text-white transition-colors">About Kevin</a></li>
+                        <li><a href="#contact" class="text-gray-300 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Insurance Types -->
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Insurance Types</h3>
+                    <ul class="space-y-2">
+                        <li class="text-gray-300">
+                            <i class="fas fa-check text-ark-accent-500 mr-2"></i>Life Insurance
+                        </li>
+                        <li class="text-gray-400">
+                            <i class="fas fa-clock text-ark-gold-500 mr-2"></i>Health Insurance (Soon)
+                        </li>
+                        <li class="text-gray-400">
+                            <i class="fas fa-clock text-ark-brown-500 mr-2"></i>P&C Insurance (Future)
+                        </li>
+                    </ul>
+                    
+                    <div class="mt-6">
+                        <h4 class="font-semibold mb-2">Service Area</h4>
+                        <p class="text-gray-300 text-sm">
+                            <i class="fas fa-map-marker-alt text-ark-brown-500 mr-2"></i>
+                            Currently: New Jersey<br>
+                            <i class="fas fa-globe text-ark-gold-500 mr-2"></i>
+                            Coming: Nationwide
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bottom Bar -->
+            <div class="border-t border-gray-800 mt-12 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="text-gray-400 text-sm mb-4 md:mb-0">
+                        © 2024 Ark Insurance - Kevin Brown Jr. All rights reserved. | 
+                        Licensed in New Jersey | License #: [NJ License Number]
+                    </div>
+                    <div class="flex space-x-6 text-sm">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">Terms of Service</a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">Licensing Info</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- STICKY MOBILE ELEMENTS -->
+    
+    <!-- Sticky Phone Button (Mobile) -->
+    <div class="fixed bottom-20 right-4 z-50 md:hidden">
+        <a href="tel:+1-555-275-4678" class="sticky-phone bg-green-600 hover:bg-green-700 text-white p-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110 animate-bounce">
+            <i class="fas fa-phone text-xl"></i>
+        </a>
+    </div>
+    
+    <!-- Enhanced Chat Widget -->
+    <div class="fixed bottom-6 right-6 z-50">
+        <div class="relative">
+            <!-- Notification Dot -->
+            <div class="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full animate-ping"></div>
+            <button class="chat-widget bg-ark-gold-500 hover:bg-ark-gold-600 text-black p-4 rounded-full shadow-lg transition-all duration-300 transform hover:scale-110">
+                <i class="fas fa-comments text-xl"></i>
+            </button>
+        </div>
+        <!-- Chat Tooltip -->
+        <div class="absolute bottom-16 right-0 bg-black text-white px-3 py-2 rounded-lg text-sm whitespace-nowrap opacity-0 chat-tooltip transition-opacity duration-300">
+            Get instant quote! 💬
+        </div>
+    </div>
+    
+    <!-- Exit Intent Popup -->
+    <div id="exit-intent-popup" class="fixed inset-0 bg-black/80 z-[100] hidden items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-md w-full p-8 transform scale-95 transition-transform duration-300" id="exit-popup-content">
+            <div class="text-center">
+                <div class="w-16 h-16 bg-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <i class="fas fa-exclamation text-white text-2xl"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-ark-brown-900 mb-4">Wait! Don't Miss Out!</h3>
+                <p class="text-gray-700 mb-6">Get your personalized quote in under 60 seconds. Our 2024 rates expire soon!</p>
+                
+                <div class="space-y-3 mb-6">
+                    <button class="w-full bg-ark-gold-500 hover:bg-ark-gold-600 text-black py-3 rounded-lg font-bold transition-colors exit-get-quote">
+                        Get My Quote Now (60 seconds)
+                    </button>
+                    <button class="w-full border-2 border-ark-brown-600 text-ark-brown-600 hover:bg-ark-brown-600 hover:text-white py-3 rounded-lg font-bold transition-colors exit-call-now">
+                        <i class="fas fa-phone mr-2"></i>Call (555) ARK-INSURE
+                    </button>
+                </div>
+                
+                <button class="text-gray-400 hover:text-gray-600 text-sm exit-close">
+                    No thanks, I'll pay higher rates later
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Floating Live Quote Ticker -->
+    <div class="fixed top-20 left-4 bg-ark-brown-900 text-white p-4 rounded-lg shadow-lg z-40 hidden md:block live-ticker">
+        <div class="text-xs font-bold text-ark-gold-500 mb-1">LIVE RATES</div>
+        <div class="text-sm">
+            <div class="ticker-item">30yr Male • $500K • <span class="text-green-400">$45/mo</span></div>
+        </div>
+        <div class="w-full bg-ark-brown-700 rounded-full h-1 mt-2">
+            <div class="bg-ark-gold-500 h-1 rounded-full animate-pulse" style="width: 85%"></div>
+        </div>
+        <div class="text-xs text-gray-400 mt-1">Updated live</div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
