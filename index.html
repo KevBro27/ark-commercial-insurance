@@ -20,9 +20,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
-    <!-- Tailwind CSS for Professional Styling -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    
     <!-- Font Awesome for Professional Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.0/css/all.min.css">
     
@@ -30,44 +27,8 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/css/main.css">
     
-    <!-- Tailwind Config -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        'inter': ['Inter', 'sans-serif'],
-                        'poppins': ['Poppins', 'sans-serif'],
-                    },
-                    colors: {
-                        'ark-brown': {
-                            50: '#faf8f7',
-                            100: '#f5f0ec',
-                            200: '#e8ddd4',
-                            300: '#d4c4b5',
-                            400: '#b8a08a',
-                            500: '#9d7c5f',
-                            600: '#8b6914',
-                            700: '#6d4c0f',
-                            800: '#5a3f0c',
-                            900: '#4a3209',
-                            950: '#3d2a07'
-                        },
-                        'ark-gold': {
-                            500: '#d4af37',
-                            600: '#b8941f'
-                        },
-                        'ark-accent': {
-                            500: '#c0c0c0',
-                            600: '#a8a8a8'
-                        }
-                    }
-                }
-            }
-        }
-    </script>
 </head>
 <body class="font-inter antialiased">
     <!-- Navigation Header -->
@@ -1515,6 +1476,6 @@
 
     <!-- Scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/main.js"></script>
+    <script type="module" src="/main.js"></script>
 </body>
 </html>
