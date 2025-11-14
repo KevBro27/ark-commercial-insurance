@@ -1,0 +1,12 @@
+{
+  "name": "ark-insurance-website",
+  "version": "1.0.0",
+  "description": "The Ark Insurance Company Website",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -s . -l 3000"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
