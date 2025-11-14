@@ -2,6 +2,7 @@
   "name": "ark-insurance-website",
   "version": "1.0.0",
   "scripts": {
+    "start": "vite",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
