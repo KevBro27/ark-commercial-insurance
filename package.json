@@ -1,12 +1,17 @@
 {
   "name": "ark-insurance-website",
   "version": "1.0.0",
-  "description": "The Ark Insurance Company Website",
-  "main": "index.html",
   "scripts": {
-    "start": "npx serve -s . -l 3000"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "serve": "^14.2.1"
+    "vite": "^5.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32"
   }
 }
